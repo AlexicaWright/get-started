@@ -157,7 +157,7 @@ In your model, the relationship goes _from_ the `Order` node, so select `orderID
 
 As you can see, the file also contains other properties pertaining to the order of a product. 
 You don't need to include the `orderID` or the `productID` here, as these are already encoded in the relationship.
-You could include `quantity`
+You could include `quantity`, `unitPrice` and `discount` as properties relevant to the relationship. For example `quantity` does not belong on either the `Product` or `Order` nodes since products the will be sold in different quantities on different orders.  
 
 === Graph databases vs. relational databases
 
