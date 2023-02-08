@@ -1,6 +1,6 @@
 = Learn how to import and map data with Neo4j Data Importer
 
-== Data Importer
+== Introduction
 
 This guide will teach you how to import data from flat files and how to map the data to your graph data model.
 
