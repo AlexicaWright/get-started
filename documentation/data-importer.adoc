@@ -84,7 +84,7 @@ If not, you will have problems when you load the data and try to create relation
 
 == Thinking about your model
 
-You are likely familiar with the _graph data model_ by now, but in summary, the graph property model shows how your data is connected.
+You are likely familiar with the _graph data model_ by now, which determines how your data is connected.
 When you create your model, you need to think about the data in your CSV files and how the data is connected.
 As mentioned earlier, your CSV files already contain all the information about how the data within the files is connected, you just need to sketch the model and map your data to it.
 To practice, we are going to create a simple model with only two nodes and one relationship.
