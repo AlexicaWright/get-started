@@ -346,10 +346,18 @@ Data Importer, as a UI tool, is not best placed to meet _all_ of your varied loa
 - https://neo4j.com/docs/operations-manual/current/tutorial/neo4j-admin-import/[Neo4j-admin import]] for loading large amounts of CSV data rapidly into an offline database
 - https://neo4j.com/product/connectors/[Neo4j connectors] to connect data from a variety of soruces into Neo4j.
 - https://neo4j.com/docs/apoc/current/overview/apoc.load/[APOC Load procedures] for specialist Cypher procedures to make it easier to ingest data from formats including, json, xml and arrow.
- 
+
 == Frequently Asked Questions
 
+- Q: Missing files - Why does data importer say I need to provide my files after I've aready provided them? Why does it happen so often? 
+A: When you provide Data Importer with your files, you are actually providing your Web Browser with a link to those files on your local filesystem, they aren't uploaded anywhere - Data importer stream the content of the files to you database only when you run the import. If you reload the page, Data Importer will lose access to the  connection to those files due to security restrictions in place to prevent web applications accessing files you haven't given express permission to use on page load. You simply need to re-provide the files when requested by data importer to be able to run an import.
 
+- Q: How can I replace a file?
+A: Data Importer doesn't currently allow you to swap out files in the UI. There is however a workaround that may prove useful. If you want to provide a different file with the same column structure to data importer, you can rename it to match and then simply add the file to the files panel. This will replace the referecne to the latest file and be available for use by your import.
+
+
+- Q: How do I change the database data improter load into?
+A: If you are using a Neo4j instanace that supports multiple databases, Data Importer will use the home database to import data into it.  You may have the facility to change the home database for the user that you connect to your DBMS with, read more on setting the home database for a user https://neo4j.com/docs/cypher-manual/current/access-control/manage-users/[here].
 
 
 
