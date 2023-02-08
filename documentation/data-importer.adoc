@@ -300,7 +300,7 @@ For a more comprehensive guidance on the Explore tab, see the https://www.neo4j.
 
 == Saving and loading
 
-Now switch back to the Import tab. You have created a simple model and mapped it data.
+Now switch back to the Import tab. You have created a simple model and mapped data to it.
 Often, the datamodel is a bit more complicated than this example model.
 Regardless of complexity, you may want to come back to your model at some point.
 Data Importer lets you _download_ your model, with or without the data you've mapped to it.
