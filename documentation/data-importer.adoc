@@ -136,8 +136,7 @@ Use the `productID` property as ID for the node.
 == Create relationships
 
 You have two nodes and now you need to create a relationship to connect them.
-Pick your start node, the `Order` node, by clicking on it.
-Hover by the edge of the circle and you'll see a `+` sign.
+Hover by the edge of the `Order` node circle and you'll see a `+` sign.
 Click and hold it and you'll see another circle.
 Drag the new circle on to the `Product` node and just like that, you have created a relationship. 
 
