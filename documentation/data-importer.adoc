@@ -124,7 +124,7 @@ Go to the _Mapping_ tab next.
 This tab shows your selected properties and the column in `orders.csv` each property maps to.
 If you created your own properties, you have to manually select which columns to map them to.
 
-The last thing you need to do is to select one of the properties to represent the node as its _node ID_.
+Returning to the _Definition_ tab, the last thing you need to do is to select one of the properties to represent the node as its _node ID_.
 The node ID is used when connecting nodes with relationships as either a start node or end node.
 If the node is referenced more than once in the file, the ID ensures that the node is not created more than once.
 
