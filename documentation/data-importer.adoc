@@ -254,7 +254,7 @@ FOR (n: `Order`)
 REQUIRE (n.`orderID`) IS UNIQUE;
 ----
 
-This ensures that the `orderID` is unique which is important since this is what is used later to create the relationship between the _Order_ nodes and the _Product nodes.
+This ensures that the `orderID` is unique which is important since this is what is used later to create the relationship between the _Order_ nodes and the _Product_ nodes.
 As you will see later on, this constraint is also what allows you to run the import more than once.
 
 The load statement creates all the different nodes sets all your selected properties.
