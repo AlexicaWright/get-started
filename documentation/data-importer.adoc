@@ -91,6 +91,8 @@ To practice, we are going to create a simple model with only two nodes and one r
 
 image::simple-model.png[]
 
+We'll now go on to create this model and map data to it as we go.
+
 == Create nodes
 
 The first step is to create nodes to represent the entities in your data.
