@@ -274,7 +274,7 @@ SET r.`quantity` = toInteger(trim(relRecord.`quantity`))
 SET r.`discount` = toFloat(trim(relRecord.`discount`));
 ----
 
-From this you can see how the source node and the target node are `MATCH`ed (found in the data) and then a `MERGE` statement is used to create a `CONTAINS` relationship _from_ the source node _to_ the target node.
+From this you can see how the source node and the target node are `MATCH` ed (found in the data) and then a `MERGE` statement is used to create a `CONTAINS` relationship _from_ the source node _to_ the target node.
 You can also see the the properties added to each relationship.
 
 == Explore the graph
