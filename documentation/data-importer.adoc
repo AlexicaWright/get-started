@@ -23,9 +23,9 @@ The topics covered in this guide are:
 
 == Scope of Importer
 
-You should have a basic understanding of Neo4j and the graph property model by now.
-If you are unsure, you can always go back to the _Getting started with Neo4j_ guide again.
-But assuming you're familiar with the basics, you are ready to have a closer look at the file format for importing data and how this relates to your graph model.
+Data Importer is designed to get you started with Neo4j as quickly as possible and is recommend for new users and those with rapid prototyping needs. However, it's far from being the only way to load data into Neo4j, especially when you have more advanced needs. At the end of this guide the "What's next?" step gives links to resources on the many different ways of loading data into Neo4j.
+
+Configuring Data Importer for imnport is a simple three stage process (1) providing your Flat files, (2) defining a Graph Model and (3) Mapping that data to those flat files: 
 
 === Flat files
 
@@ -36,13 +36,13 @@ The most common file formats are CSV (comma-separated values) and TSV (tab-separ
 Data Importer supports both formats, but this guide will focus on CSV.
 This guide doesn't teach you how to create CSV files, but gives you a closer look at their structure.
 
+=== Graph Model
+
+Once you have your flat files, your next job is to think how you're going to represent the data as nodes and relationships in your graph. Data Importer allows you to visually sketch out that model which is then use in the mapping stage. You can model and mapping iteratively as you work out which graph model best suits your use case and data.
+
 === Mapping
 
-The flat files contain both the data and the structure of the data.
-This means that the files contain both the nodes and the relationships that connect them.
-All you need to do is to map the data to the graph model you have in mind.
-Data Importer lets you draw your model and then map your data to it.
-You'll get to this in a moment.
+While some flat files might refer to nodes an relationshps, more often than not the nodes and relationships will be implicitly represented. The mapping stage is all about helping Data Importer understand which parts of which files represent the nodes and relationships ion the graph model. This gives Data Importer all the infomration it needs to run an Import job.  
 
 == Provision of files
 
