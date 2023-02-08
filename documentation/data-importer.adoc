@@ -191,7 +191,7 @@ The following items **must be** mapped on a **node**:
 * Label
 * File
 * A minimum of one property
-* ID (the ID is populated automatically)
+* ID
 
 The following items **must be** mapped on a **relationship**:
 
