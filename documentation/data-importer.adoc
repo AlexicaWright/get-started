@@ -340,8 +340,13 @@ The `Order` and `Product` nodes have been retained and not recreated because the
 
 == When you outgrow the Data Importer
 
-Greg will contribute something here
+Data Importer, as a UI tool, is not best placed to meet _all_ of your varied load needs, be they transformations or differing data formats. If you can't achieve a load in Data Importer, the chances are you can achieve the load using some of the other approaches to loading data into Neo4j. The following are useful resources for different needs:
 
+- https://neo4j.com/docs/cypher-manual/current/clauses/load-csv/[LOAD CSV]] for writing your own bespoke Cypher load scripts from CSVs, leveraging the full capabilities of Cypher.
+- https://neo4j.com/docs/operations-manual/current/tutorial/neo4j-admin-import/[Neo4j-admin import]] for loading large amounts of CSV data rapidly into an offline database
+- https://neo4j.com/product/connectors/[Neo4j connectors] to connect data from a variety of soruces into Neo4j.
+- https://neo4j.com/docs/apoc/current/overview/apoc.load/[APOC Load procedures] for specialist Cypher procedures to make it easier to ingest data from formats including, json, xml and arrow.
+ 
 == Frequently Asked Questions
 
 
