@@ -50,6 +50,8 @@ The first thing you need to do is to locate the data you want to import.
 This can be individual CSV files or a directory containing multiple files.
 When you know where the files are, you can drag and drop them to the _Files_ pane or browse for them.
 
+image::files.png[]
+
 For convenience, click the button to have the Northwind dataset loaded for you, so you don't have to drag and drop them.
 
 button::Download the partial Northwind dataset[role=NX_IMPORT_LOAD,endpoint=https://neo4j-graph-examples.github.io/get-started/data/just-the-data.zip]
@@ -59,8 +61,6 @@ This is *not* the same as _importing_ them.
 By uploading, you just make them available to the Data Importer, not to your database.
 
 You should now see eleven CSV files in the _Files_ section.
-
-image::files.png[]
 
 === File structure
 
