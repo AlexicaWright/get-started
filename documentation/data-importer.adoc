@@ -289,7 +289,7 @@ To start out, let's have a quick look at a sample of your data.
 
 You can see that the search bar in the top left corner is already populated with _Show me a graph_.
 Click the bar and press enter.
-Except for the sample graph, you can use the search bar to find and display any of the elements in your data.
+As well as showing the sample graph, you can use the search bar to find and display any of the elements in your data.
 You can use near-natural language for this and that means that Explore understands a vocabulary based on the categories, labels, relationship types, property keys and property values of your dataset.
 
 The legend panel on your right gives you an overview of the elements in your graph with one tab for nodes and one for relationships.
