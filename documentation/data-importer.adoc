@@ -335,8 +335,8 @@ Click the button to go to the _Explore_ tab.
 button::Explore[role=NX_TAB_NAV,tab=explore]
 
 In the search bar, type _Order_ and _Product_ and press enter.
-In the graph displayed in the Scene, click on any relationship and you can see it says `ORDERS` and not `CONTAINS`.
-You can also try to type _CONTAINS_ in the search bar to see that those relationships have now been replaced by identical relationships, except for the type now being `ORDERS`.
+In the graph displayed in the Scene, click on any relationship and you can see it offers the `ORDERS` option as well as `CONTAINS`.
+The `Order` and `Product` nodes have been retained and not recreated because their data importer configuration was identical, but since we added a new relationship type of `ORDERS`, this was added to the load. The `CONTAINS` relationship is still retained from the previous import run. The old relationships would need to be removed with Cypher, or the load run on a clean database to only keep the relationships in the latest iteration of the model and mapping. 
 
 == When you outgrow the Data Importer
 
