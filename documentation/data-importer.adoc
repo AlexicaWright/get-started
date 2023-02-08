@@ -148,7 +148,7 @@ First, you add the relationship type, which is a descriptive name for the relati
 In the model you are creating, an order _contains_ a product, so go ahead and put `CONTAINS` in the _Relationship type_ field.
 
 Next, in order to create the relationship, you need to map a file that describes _how_ it should be created.
-Remember that you selected the `orderID` and `productID` properties as IDs for the your nodes.
+Remember that you selected the `orderID` and `productID` properties as IDs for the nodes.
 The file you map your relationship to needs to contain these to be able to actually link the two nodes.
 Look in the left pane and you'll see that the `order-details.csv` file contains both. 
 
