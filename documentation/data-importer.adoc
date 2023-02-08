@@ -244,8 +244,7 @@ Note that if you run this guide after the _Getting Started_, the count may show 
 You can also see the Cypher commands used to create the elements in your model.
 This can be helpful if you want to gain appreciation for the underlying Cypher required to execute the load.
 Let's have a look at _Order_ nodes.
-Click _Show Cypher_ on _Order_.
-The key statement:
+Click _Show Cypher_ on _Order_ which reveals the key statement:
 
 .Key statement
 [source,cypher]
